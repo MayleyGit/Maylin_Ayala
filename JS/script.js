@@ -74,7 +74,7 @@ let currentItem3 = 4;
 
 loadMoreBtn3.onclick = () => {
     let boxes = [...document.querySelectorAll('.box-container-3 .box-3')];
-    for(var i = currentItem3; i < currentItem3 + 4; i++) {
+    for(var i = currentItem3; i < currentItem3 + 4; i++)   {
         boxes[i].style.display = 'inline-block';
     }
     currentItem3 += 4;

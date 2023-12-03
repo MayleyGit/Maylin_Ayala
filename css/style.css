@@ -110,7 +110,10 @@ header {
 }
 
 .hamburger {
-    width: 100%;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
 }
 
 .botones {
@@ -171,7 +174,7 @@ header {
     right: 0;
     position: absolute;
     bottom: -130px;
-    width: 250px;
+    width: 140px;
 }
 
 .menu-nav {
@@ -599,3 +602,92 @@ footer {
 
 }
 
+/*team section*/
+
+.team-header { 
+    text-align: center;
+    padding: 0px;
+}
+.team-header h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: #fdfdfd;   
+}
+@media (max-width: 600px){
+    .team h1 {
+        font-size: x-large;
+    }
+}
+.team p{
+    font-size: 600;
+    color: #fdfdfd;
+}
+.team .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 14px;
+}
+.team .column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 6px;
+}
+.team .column img {
+    margin-top: 40px;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 50%;
+    text-align: center;
+}
+.team .column h3{
+    font-weight: 600;
+    font-family: 'lora', sans-serif;
+    color: #fdfdfd;
+    text-align: center;
+    margin-bottom: 3px;
+}
+.team .column p{
+    font-weight: 400;
+    color: #fdfdfd;
+    text-align: center;
+}
+@media(max-width: 800px) {
+    .team .column{
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+@media(max-width: 600px) {
+    .team .column{
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+/* Formulario */
+
+form {
+    max-width: 800px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centrar el formulario en el contenedor */
+  }
+  
+  .form-group {
+    margin-bottom: 15px; /* Espaciado entre grupos de formulario */
+    color: #fdfdfd;
+  }
+
+  .text-center {
+    font-size: 25px;
+    line-height: 10px;
+    font-weight: 700;
+    color: #fdfdfd;
+    margin-bottom:  25px;
+    text-transform: uppercase;
+
+  }
